@@ -22,6 +22,12 @@ logo. The homepage includes Classic, local Quick Match and Prove It screenshots,
 with links to the original-size PNGs. These are actual development captures;
 appearance may change before release.
 
+The Classic rules example uses native HTML disclosure: add T to CAR to reveal
+why completing CART loses the round. It works with keyboard and touch without
+JavaScript. Headings use Fredoka and body text uses Nunito, both self-hosted
+variable fonts from [Google Fonts](https://github.com/google/fonts). Their
+SIL Open Font Licenses are included in `assets/fonts/`.
+
 Authoring source lives in the game checkout's `website/` folder. Rebuild with
 `python Tools/Website/build_site.py`, then publish only that folder's contents.
 `site.json` is public configuration and must never contain credentials.
