@@ -17,6 +17,11 @@ No JavaScript, analytics, advertising scripts, remote fonts or forms are used.
 Brand artwork is retained for this site; publication grants no general
 redistribution license.
 
+The playful cream, violet, mint, peach and yellow theme retains the mint Haunted G
+logo. The homepage includes Classic, local Quick Match and Prove It screenshots,
+with links to the original-size PNGs. These are actual development captures;
+appearance may change before release.
+
 Authoring source lives in the game checkout's `website/` folder. Rebuild with
 `python Tools/Website/build_site.py`, then publish only that folder's contents.
 `site.json` is public configuration and must never contain credentials.
